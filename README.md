@@ -6,6 +6,7 @@
 * OLEDs
 * RGB Underglow
 * 1400mAh LiPo Batteries
+[Build Guide](build/guide.md) coming soon
 
 Keymaps created with the excellent [keymap-editor](http://nickcoutsos.github.io/keymap-editor/)
 
