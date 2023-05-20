@@ -7,5 +7,10 @@
 * RGB Underglow
 * 1400mAh LiPo Batteries
 
+Keymaps created with the excellent [keymap-editor](http://nickcoutsos.github.io/keymap-editor/)
 
-![image](./assets/default_layer.png?style=centerme)
+![image](./assets/base_layer.png?style=centerme)
+![image](./assets/numerical_layer.png?style=centerme)
+![image](./assets/symbol_layer.png?style=centerme)
+![image](./assets/bluetooth_layer.png?style=centerme)
+![image](./assets/sleep_layer.png?style=centerme)
