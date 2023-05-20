@@ -1,7 +1,7 @@
 # zmk-config
 
 * Corne Choc v2.1
-* N!ce Nano v2
+* Nice!Nano v2
 * Black MBK Glow Keycaps
 * OLEDs
 * RGB Underglow
