@@ -7,6 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: petejohanson
+      remote: bluetooth/fix-legacy-llcp-kconfig-formatting
       revision: ble/connected-status-tweaks
       revision: zephyr/3.3-update
       revision: power/domains-and-device-runtime
