@@ -11,4 +11,4 @@
 
 Keymaps created with the excellent [keymap-editor](http://nickcoutsos.github.io/keymap-editor/)
 
-![image](.assets/layouts.png?style=centerme)
+![image](./assets/layouts.png?style=centerme)
