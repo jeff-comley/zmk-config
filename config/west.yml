@@ -2,15 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: petejohanson
-      url-base: https://github.com/petejohanson
   projects:
-    - name: zmk
-      remote: petejohanson
-      # revision: ble/connected-status-tweaks
-      revision: zephyr/3.3-update
-      # revision: power/domains-and-device-runtime
-      # revision: bluetooth/fix-legacy-llcp-kconfig-formatting
+
       import: app/west.yml
   self:
     path: config
