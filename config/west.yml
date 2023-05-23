@@ -8,6 +8,7 @@ manifest:
     - name: zmk
       remote: petejohanson
       revision: power/domains-and-device-runtime
+      revision: display/bongo-cat-widget
       import: app/west.yml
   self:
     path: config
