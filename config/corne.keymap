@@ -62,7 +62,7 @@
         compatible = "zmk,keymap";
 
         base_layer {
-            label = "BSE";
+            label = "BASE";
             bindings = <
                 &kp TAB  &kp Q  &kp W         &kp E         &kp R      &kp T        &kp Y  &kp U      &kp I    &kp O     &kp P    &kp BSPC
        &kp LEFT_CONTROL  &kp A  &kp S         &kp D         &kp F      &kp G        &kp H  &kp J      &kp K    &kp L  &kp SEMI     &kp SQT
@@ -72,7 +72,7 @@
         };
 
         numerical_layer {
-            label = "NUM";
+            label = "NMBR";
             bindings = <
 &kp ESCAPE  &kp N1  &kp N2    &kp N3        &kp N4     &kp N5           &kp N6          &kp N7          &kp N8           &kp N9    &kp N0  &kp DELETE
     &kp F1  &kp F2  &kp F3    &kp F4        &kp F5     &kp F6      &kp PAGE_UP           &none          &kp UP            &none  &kp HOME       &none
@@ -82,7 +82,7 @@
         };
 
         symbol_layer {
-            label = "SYM";
+            label = "SMBL";
             bindings = <
         &kp TILDE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH      &kp DLLR  &kp PRCNT    &kp CARET   &kp AMPS  &kp ASTERISK  &kp LPAR  &kp RPAR    &kp DEL
 &kp RIGHT_CONTROL           &trans       &trans    &trans        &trans     &trans    &kp MINUS  &kp EQUAL      &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE
@@ -92,7 +92,7 @@
         };
 
         bluetooth_layer {
-            label = "BLE";
+            label = "BLTH";
             bindings = <
      &bt BT_CLR     &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans   &none
 &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI        &trans   &ext_power EP_ON    &trans  &trans  &trans  &trans  &trans  &trans
