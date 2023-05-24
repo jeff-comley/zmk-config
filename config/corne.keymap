@@ -160,4 +160,5 @@
         zmk,underglow = &led_strip;
     };
 // End Here
+  };
 };
