@@ -12,6 +12,10 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/led/led.h>
 
+&led_strip {
+    chain-length = <21>;
+};
+
 / {
     conditional_layers {
         compatible = "zmk,conditional-layers";
