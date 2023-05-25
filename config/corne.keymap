@@ -14,7 +14,7 @@
 
 // &led_strip {
 //     chain-length = <54>;
-};
+//};
 
 / {
     conditional_layers {
