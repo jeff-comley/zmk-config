@@ -16,8 +16,29 @@
 &led_strip {
     chain-length = <20>;
 };
+&i2c0 {
+    status = "okay";
 
+    oled: ssd1306@3d {
+        compatible = "solomon,ssd1306fb";                                     
+        reg = <0x3d>;
+        label = "DISPLAY";
+        width = <128>;
+        height = <64>;
+        segment-offset = <0>;
+        page-offset = <0>;
+        display-offset = <0>;
+        multiplex-ratio = <31>;
+        segment-remap;
+        com-invdir;
+        com-sequential; 
+        prechargep = <0x22>;
+    };
+};
 / {
+    chosen {
+        zephyr,display = &oled;
+    };
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
