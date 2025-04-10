@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-
+#define DEFAULT 0
+#define BT   1
 // #define PIN_MACRO(name, pin) \
 // / { \
 //     macros { \
@@ -42,22 +43,22 @@
 
         default_layer {
             bindings = <&trans
-                        &pin1     //Rotary SW
-                        &pin2     //ScrollDwn (RotaryB)
-                        &pin3     //ScrollUp (RotaryA)
-                        &pin4     //Momentary Layer
-                        &pin5     //Vol Down
-                        &pin6>;   //Vol Up
+                        &kp C_PLAY_PAUSE     //Rotary SW
+                        &trans     //ScrollDwn (RotaryB)
+                        &trans     //ScrollUp (RotaryA)
+                        &mo BT     //Momentary Layer
+                        &kp C_VOLUME_DOWN    //Vol Down
+                        &kp C_VOLUME_UP>;   //Vol Up
 
         };
         BT_layer {
             bindings = <&trans
-                        &pin1     //Unpair
-                        &pin2     //PgDn
-                        &pin3     //PgUp
-                        &pin4     //Momentary Layer
-                        &pin5     //Device 2
-                        &pin6>;   //Device 1
+                        &bt BT_CLR    //Unpair
+                        &trans     //PgDn
+                        &trans     //PgUp
+                        &mo BT     //Momentary Layer
+                        &bt BT_SEL 2     //Device 2
+                        &bt BT_SEL 1>;   //Device 1
 
         };
     };
