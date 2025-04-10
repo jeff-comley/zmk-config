@@ -33,7 +33,7 @@
         compatible = "zmk,combos";
         combo_studio {
             timeout-ms = <50>;
-            key-positions = <6 7>;
+            key-positions = <5 6>;
             bindings = <&studio_unlock>;
         };
     };
