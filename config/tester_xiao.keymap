@@ -32,10 +32,10 @@
         swipe_up: swipe_up {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <
-                &mkp MOUSE_MOVE(0 -10)
-                &mkp MOUSE_BTN1
-                >;
+            bindings
+                = <&mkp MOUSE_MOVE(0 -10)>
+                , <&mkp MOUSE_BTN1>
+                ;
         };
     };
 
