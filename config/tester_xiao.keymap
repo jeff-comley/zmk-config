@@ -32,7 +32,7 @@
         default_layer {
             bindings = <    
                             &trans
-                            &msc SCRL_UP 30   //Rotary SW
+                            &msc SCRL_UP  //Rotary SW
                             &trans     //ScrollDwn (RotaryB)
                             &trans     //ScrollUp (RotaryA)
                             &mo BT     //Momentary Layer
