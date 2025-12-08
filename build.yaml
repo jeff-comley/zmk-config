@@ -247,6 +247,7 @@ include:
     shield: lily58_dongle_pro_micro
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"lily58Dongle_P\"  -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=n -DCONFIG_ZMK_IDLE_TIMEOUT=60000
     snippet: studio-rpc-usb-uart
+    artifact-name: RAYTAC_Dongle
   ### LILY58 END ###
 
   # ### SPLITKB AURORA SOFLE START ###
